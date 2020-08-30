@@ -1,9 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
 .container {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 }
 .row {
     display: flex;
@@ -66,7 +73,6 @@
 }
 
 
-
 @media(min-width: 768px) {
     .container {
         max-width: 720px;
@@ -119,7 +125,6 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-    
 }
 @media(min-width: 992px) {
     .container {
@@ -173,7 +178,9 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-   
+    .header {
+        height: 428px;
+    }
 }
 @media(min-width: 1200px) {
     .container {
@@ -227,7 +234,4 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-}
-@media (max-width: 767px) {
-    
 }
