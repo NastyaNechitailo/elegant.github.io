@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -5,10 +8,9 @@ body {
 /* HEADER */
 
 .header {
-    background-image: url("images/Intro-index.png");
+    background-image: url("images/index/Intro-index.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    /* height: 695px; */
 }
 .fixed-block {
     position: sticky;
@@ -74,9 +76,8 @@ body {
 }
 .header-h1 {
     margin-top: 150px;
-    margin-bottom: 316px;
     font-weight: 300;
-    font-size: 70px;
+    font-size: 60px;
     color: #ffffff;
     text-align: center;
 }
@@ -85,7 +86,7 @@ body {
 }
 @media (max-width: 767px) {
     .header {
-        background-image: url("images/Intro\ index-mobile.png");
+        background-image: url("images/index/Intro\ index-mobile.png");
         height: 450px;
     }
     .fixed-block {
@@ -108,4 +109,98 @@ body {
         font-size: 40px;
         line-height: 48px;
     }
+}
+
+/* Main */
+/* About us */
+
+.main-block {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.main-row {
+    justify-content: center;
+}
+.small-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #d4af37;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.large-title {
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: 600;
+    color: #021725;
+    margin-bottom: 55px;
+}
+.text {
+    line-height: 30px;
+    font-size: 18px;
+    color: #021725;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+.read-more {
+    font-size: 14px;
+    font-weight: 300;
+    color: #021725;
+    margin-bottom: 80px;
+    height: 57px;
+    width: 238px;
+    padding: 0;
+    border: 1px solid black;
+    background-color: #fff;
+    transition: .50s ease-in-out;
+}
+.read-more:hover {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    transition: .50s ease-in-out;
+}
+.show-work {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.show-work div {
+    padding: 3px 4px;
+    height: 300px;
+}
+.show-work img {
+    width: 100%;
+    height: auto;
+}
+.workers {
+    margin-bottom: 60px;
+}
+.block-worker {
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.text-block {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    background-color: #f9f9f9;
+}
+.text-block h4 {
+    margin-top: 0;
+}
+.text-block h3 {
+    color: #021725;
+    font-size: 21px;
+    font-weight: 400;
+}
+.text-block p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 36px;
+    margin-bottom: 30px;
 }

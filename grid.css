@@ -125,6 +125,9 @@ a {
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .header {
+        height: 428px;
+    }
 }
 @media(min-width: 992px) {
     .container {
@@ -179,7 +182,7 @@ a {
         max-width: 100%;
     }
     .header {
-        height: 428px;
+        height: 570px;
     }
 }
 @media(min-width: 1200px) {
@@ -233,5 +236,13 @@ a {
     .col-lg-12 {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .header {
+        height: 695px;
+    }
+}
+@media (max-width: 767px) {
+    .block-worker img {
+        height: 225px;
     }
 }
