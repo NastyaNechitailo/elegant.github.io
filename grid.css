@@ -242,7 +242,5 @@ a {
     }
 }
 @media (max-width: 767px) {
-    .block-worker img {
-        height: 225px;
-    }
+    
 }
